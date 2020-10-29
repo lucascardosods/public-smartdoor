@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1CB1216241FAE7500E0FFB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB1215241FAE7500E0FFB9 /* AppDelegate.swift */; };
+		A1CB121D241FAE7500E0FFB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CB121B241FAE7500E0FFB9 /* Main.storyboard */; };
+		A1CB121F241FAE7700E0FFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CB121E241FAE7700E0FFB9 /* Assets.xcassets */; };
+		A1CB1222241FAE7700E0FFB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CB1220241FAE7700E0FFB9 /* LaunchScreen.storyboard */; };
+		A1CB122A241FAFA800E0FFB9 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB1229241FAFA800E0FFB9 /* FaceDetectionViewController.swift */; };
+		A1CB122E241FB5BD00E0FFB9 /* CameraViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB122B241FB5BC00E0FFB9 /* CameraViewWrapper.swift */; };
+		A1CB122F241FB5BD00E0FFB9 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB122C241FB5BC00E0FFB9 /* CameraView.swift */; };
+		A1CB1232241FFB4200E0FFB9 /* FaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB1231241FFB4200E0FFB9 /* FaceService.swift */; };
+		A1CB1234241FFC9900E0FFB9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB1233241FFC9900E0FFB9 /* Config.swift */; };
+		A1F74FE42421005000429E15 /* Extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F74FE32421005000429E15 /* Extesions.swift */; };
+		A1F74FE72421019D00429E15 /* BufferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F74FE62421019D00429E15 /* BufferManager.swift */; };
+		A1F74FE9242102F000429E15 /* DoorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F74FE8242102F000429E15 /* DoorService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1CB1212241FAE7500E0FFB9 /* smartdoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartdoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CB1215241FAE7500E0FFB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1CB121C241FAE7500E0FFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1CB121E241FAE7700E0FFB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1CB1221241FAE7700E0FFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1CB1223241FAE7700E0FFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CB1229241FAFA800E0FFB9 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		A1CB122B241FB5BC00E0FFB9 /* CameraViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewWrapper.swift; sourceTree = "<group>"; };
+		A1CB122C241FB5BC00E0FFB9 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A1CB1231241FFB4200E0FFB9 /* FaceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceService.swift; sourceTree = "<group>"; };
+		A1CB1233241FFC9900E0FFB9 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A1F74FE32421005000429E15 /* Extesions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extesions.swift; sourceTree = "<group>"; };
+		A1F74FE62421019D00429E15 /* BufferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferManager.swift; sourceTree = "<group>"; };
+		A1F74FE8242102F000429E15 /* DoorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1CB120F241FAE7500E0FFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1CB1209241FAE7500E0FFB9 = {
+			isa = PBXGroup;
+			children = (
+				A1CB1214241FAE7500E0FFB9 /* smartdoor */,
+				A1CB1213241FAE7500E0FFB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1CB1213241FAE7500E0FFB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB1212241FAE7500E0FFB9 /* smartdoor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1CB1214241FAE7500E0FFB9 /* smartdoor */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB1215241FAE7500E0FFB9 /* AppDelegate.swift */,
+				A1CB1229241FAFA800E0FFB9 /* FaceDetectionViewController.swift */,
+				A1F74FE62421019D00429E15 /* BufferManager.swift */,
+				A1CB122C241FB5BC00E0FFB9 /* CameraView.swift */,
+				A1CB122B241FB5BC00E0FFB9 /* CameraViewWrapper.swift */,
+				A1F74FE52421012500429E15 /* Services */,
+				A1CB1233241FFC9900E0FFB9 /* Config.swift */,
+				A1F74FE32421005000429E15 /* Extesions.swift */,
+				A1CB121B241FAE7500E0FFB9 /* Main.storyboard */,
+				A1CB121E241FAE7700E0FFB9 /* Assets.xcassets */,
+				A1CB1220241FAE7700E0FFB9 /* LaunchScreen.storyboard */,
+				A1CB1223241FAE7700E0FFB9 /* Info.plist */,
+			);
+			path = smartdoor;
+			sourceTree = "<group>";
+		};
+		A1F74FE52421012500429E15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB1231241FFB4200E0FFB9 /* FaceService.swift */,
+				A1F74FE8242102F000429E15 /* DoorService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1CB1211241FAE7500E0FFB9 /* smartdoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CB1226241FAE7700E0FFB9 /* Build configuration list for PBXNativeTarget "smartdoor" */;
+			buildPhases = (
+				A1CB120E241FAE7500E0FFB9 /* Sources */,
+				A1CB120F241FAE7500E0FFB9 /* Frameworks */,
+				A1CB1210241FAE7500E0FFB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartdoor;
+			productName = smartdoor;
+			productReference = A1CB1212241FAE7500E0FFB9 /* smartdoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1CB120A241FAE7500E0FFB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = realize;
+				TargetAttributes = {
+					A1CB1211241FAE7500E0FFB9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A1CB120D241FAE7500E0FFB9 /* Build configuration list for PBXProject "smartdoor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1CB1209241FAE7500E0FFB9;
+			productRefGroup = A1CB1213241FAE7500E0FFB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1CB1211241FAE7500E0FFB9 /* smartdoor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1CB1210241FAE7500E0FFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CB1222241FAE7700E0FFB9 /* LaunchScreen.storyboard in Resources */,
+				A1CB121F241FAE7700E0FFB9 /* Assets.xcassets in Resources */,
+				A1CB121D241FAE7500E0FFB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1CB120E241FAE7500E0FFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CB1216241FAE7500E0FFB9 /* AppDelegate.swift in Sources */,
+				A1CB122E241FB5BD00E0FFB9 /* CameraViewWrapper.swift in Sources */,
+				A1CB1234241FFC9900E0FFB9 /* Config.swift in Sources */,
+				A1F74FE72421019D00429E15 /* BufferManager.swift in Sources */,
+				A1F74FE42421005000429E15 /* Extesions.swift in Sources */,
+				A1F74FE9242102F000429E15 /* DoorService.swift in Sources */,
+				A1CB122F241FB5BD00E0FFB9 /* CameraView.swift in Sources */,
+				A1CB1232241FFB4200E0FFB9 /* FaceService.swift in Sources */,
+				A1CB122A241FAFA800E0FFB9 /* FaceDetectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1CB121B241FAE7500E0FFB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1CB121C241FAE7500E0FFB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1CB1220241FAE7700E0FFB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1CB1221241FAE7700E0FFB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1CB1224241FAE7700E0FFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1CB1225241FAE7700E0FFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1CB1227241FAE7700E0FFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYTSL4DW9Z;
+				INFOPLIST_FILE = smartdoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = realize.smartdoor2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1CB1228241FAE7700E0FFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYTSL4DW9Z;
+				INFOPLIST_FILE = smartdoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = realize.smartdoor2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1CB120D241FAE7500E0FFB9 /* Build configuration list for PBXProject "smartdoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CB1224241FAE7700E0FFB9 /* Debug */,
+				A1CB1225241FAE7700E0FFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CB1226241FAE7700E0FFB9 /* Build configuration list for PBXNativeTarget "smartdoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CB1227241FAE7700E0FFB9 /* Debug */,
+				A1CB1228241FAE7700E0FFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1CB120A241FAE7500E0FFB9 /* Project object */;
+}
